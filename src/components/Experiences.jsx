@@ -23,7 +23,6 @@ const Experience = styled.div`
   }
 
   .description p {
-    font-size: 14px;
     margin: 0 0 8px;
   }
 `;
@@ -99,7 +98,7 @@ const experiences = [
 export default function Experiences() {
   return (
     <div>
-      <Title>Work Experience</Title>
+      <Title>Experience</Title>
       {experiences.map((experience, i) => (
         <Experience key={`experience-${i}`}>
           <p className="title">{experience.title}</p>

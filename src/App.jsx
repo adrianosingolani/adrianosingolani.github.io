@@ -2,6 +2,8 @@ import Container from "./components/Container";
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Education from "./components/Education";
+import Languages from "./components/Languages";
+import Certificates from "./components/Certificates";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
@@ -18,6 +20,8 @@ function App() {
           <Contact />
           <Skills />
           <Education />
+          <Certificates />
+          <Languages />
         </div>
       </Content>
     </Container >

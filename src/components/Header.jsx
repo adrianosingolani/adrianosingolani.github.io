@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import Skills from "./Skills";
+
 const StyledHeader = styled.header`
   width: 100%;
   text-align: center;
@@ -35,11 +37,8 @@ export default function Header() {
     <StyledHeader>
       <h1>Adriano Singolani</h1>
       <h3>
-        Bachelor's degree in Computer Science with more than 10 years of work
-        experience. Currently focused on full stack development using
-        React/Next.js, Node.js with Express, MongoDB and MySQL.
-        <br />I also have some knowledge of mobile development with Flutter
-        and writing blockchain smart contracts with Rust and Solidity.
+        Bachelor's degree in Computer Science and working experience as a Full Stack Software Engineer.
+        Currently focused on TypeScript with React/Next.js, Node.js, MongoDB and MySQL.
       </h3>
     </StyledHeader>
   )

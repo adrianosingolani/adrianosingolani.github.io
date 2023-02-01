@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledSession = styled.div`
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   width: 100%;
   display: flex;
 `;
