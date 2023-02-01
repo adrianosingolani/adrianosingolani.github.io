@@ -9,6 +9,10 @@ import linkedinIcon from "../linkedin.svg";
 const Icon = styled.embed`
   width: 24px;
   margin-right: 4px;
+
+  @media print {
+    width: 16px;
+  }
 `;
 
 const StyledContact = styled.div`
