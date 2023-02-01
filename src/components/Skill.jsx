@@ -6,6 +6,11 @@ const StyledSkill = styled.div`
   border-radius: 16px;
   padding: 4px 8px;
   margin: 0 4px 4px 0;
+  cursor: default;
+
+  &:hover {
+    border-color: #bbb;
+  }
 
   @media print {
     font-size: 11px;

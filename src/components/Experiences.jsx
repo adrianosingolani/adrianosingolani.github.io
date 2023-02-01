@@ -12,6 +12,11 @@ const Experience = styled.div`
     border-bottom: none;
   }
 
+  &:hover {
+    background-color: #fafafa;
+    border-color: #bbb;
+  }
+
   p {
     margin: 0 0 4px;
   }
