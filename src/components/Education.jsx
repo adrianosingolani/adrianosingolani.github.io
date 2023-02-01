@@ -13,6 +13,9 @@ const StyledEducation = styled.div`
   }
 
   .degree {
+    @media print {
+      font-size: 13px;
+    }
   }
 
   .period {

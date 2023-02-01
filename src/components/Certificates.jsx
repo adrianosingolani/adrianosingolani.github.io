@@ -21,6 +21,9 @@ const StyledEducation = styled.div`
   }
 
   .course {
+    @media print {
+      font-size: 13px;
+    }
   }
 
   .hours {
@@ -53,9 +56,7 @@ export default function Certificates() {
   return (
     <StyledEducation>
       <Session>
-        <Title>Courses and certificates</Title>
-
-
+        <Title>Certificates</Title>
         {certificates.map((item, i) => (
           <div className="item" key={`certificate-${i}`}>
             <p className="school">{item.school}</p>

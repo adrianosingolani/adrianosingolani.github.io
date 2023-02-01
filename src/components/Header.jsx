@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import Skills from "./Skills";
-
 const StyledHeader = styled.header`
   width: 100%;
   text-align: center;

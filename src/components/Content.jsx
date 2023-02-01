@@ -11,6 +11,10 @@ const StyledContent = styled.div`
   div.first-col {
     flex-basis: 70%;
     margin-right: 64px;
+
+    @media print {
+      margin-right: 32px;
+    }
   }
 
   div.second-col {

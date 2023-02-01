@@ -11,28 +11,36 @@ const Icon = styled.embed`
   margin-right: 4px;
 `;
 
+const StyledContact = styled.div`
+  @media print {
+    font-size: 13px;
+  }
+`;
+
 export default function Contact() {
   return (
-    <Session>
-      <Title>Contact</Title>
-      <h4>São Paulo, Brazil</h4>
-      <h4>+55 (11) 987332553</h4>
-      <h4>adrianosingolani@gmail.com</h4>
-      <h4>
-        <Icon src={linkedinIcon} />
-        <a
-          href="https://www.linkedin.com/in/adrianosingolani/"
-          target="_blank"
-        >
-          linkedin.com/in/adrianosingolani
-        </a>
-      </h4>
-      <h4>
-        <Icon src={githubIcon} />
-        <a href="https://github.com/adrianosingolani" target="_blank">
-          github.com/adrianosingolani
-        </a>
-      </h4>
-    </Session>
+    <StyledContact>
+      <Session>
+        <Title>Contact</Title>
+        <h4>São Paulo, Brazil</h4>
+        <h4>+55 (11) 987332553</h4>
+        <h4>adrianosingolani@gmail.com</h4>
+        <h4>
+          <Icon src={linkedinIcon} />
+          <a
+            href="https://www.linkedin.com/in/adrianosingolani/"
+            target="_blank"
+          >
+            linkedin.com/in/adrianosingolani
+          </a>
+        </h4>
+        <h4>
+          <Icon src={githubIcon} />
+          <a href="https://github.com/adrianosingolani" target="_blank">
+            github.com/adrianosingolani
+          </a>
+        </h4>
+      </Session>
+    </StyledContact>
   )
 }
