@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 import Session from "./Session";
 import Title from "./Title";
@@ -26,17 +27,19 @@ const StyledLanguages = styled.div`
   }
 `;
 
-const languages = [
-  { language: 'Portuguese', level: 'Fluent' },
-  { language: 'English', level: 'Advanced' },
-  { language: 'Spanish', level: 'Basic' }
-]
-
 export default function Languages() {
+  const { t } = useTranslation();
+
+  const languages = [
+    { language: t('portuguese'), level: t('fluent') },
+    { language: t('english'), level: t('advanced') },
+    { language: t('spanish'), level: t('basic') }
+  ]
+
   return (
     <StyledLanguages>
       <Session>
-        <Title>Languages</Title>
+        <Title>{t('languages')}</Title>
         {languages.map((item, i) => (
           <div className="item" key={`language-${i}`}>
             <p className="language">{item.language}</p>

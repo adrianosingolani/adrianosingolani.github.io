@@ -1,0 +1,32 @@
+{
+  "translation": {
+    "header-text": "Bachelor's degree in Computer Science and working experience as a Full Stack Software Engineer. Currently focused on TypeScript with React/Next.js, Node.js, MongoDB and MySQL.",
+    "experience": "Work Experience",
+    "experience_1-title": "Full Stack Engineer, CamFeatures",
+    "experience_1-period": "Jan/2018 - Jun/2020",
+    "experience_1-description": "<p>CamFeatures was a service used for creating interactive overlays for live streaming.</p><p>The app consisted in 3 parts: the web interface where the users could configure the overlays, a Chrome extension that read the chat room where the interactions were done and a page that was used to integrate with the video streaming software receiving data from the extension and displaying the overlays.</p><p>The front end was made using Angular 5 and Materialize CSS. The back end with Node.js, Express and MongoDB. The connection between the Chrome extension and the overlays page was done with the library Socket.io. It also used the Patreon REST API for the subscription payment.</p><p>I started working on CamFeatures for creating their MVP and later on the actual product that was launched in the middle of 2019.</p>",
+    "experience_2-title": "Full Stack Engineer, Schedduler",
+    "experience_2-period": "Jun/2020 - Dec/2021",
+    "experience_2-description": "<p>Development of a SaaS for scheduling posts on Reddit.</p><p>The front end was made using React and Material-UI. The back end with Node.js, Express and MongoDB. It also used the Reddit REST API for posting to it.</p>",
+    "experience_3-title": "Full Stack Engineer, Companio",
+    "experience_3-period": "Aug/2022 - Oct/2022",
+    "experience_3-description": "<p>Companio is a company incorporation and business management platform that enables people to set-up their business in Estonia and work from anywhere in the world.</p><p>I worked as a Full Stack Engineer fixing and creating new features for their web app.</p>",
+    "experience_4-title": "Full Stack Engineer, Freelancer",
+    "experience_4-period": "Jan/2022 - Jan/2023",
+    "experience_4-description": "<p>Full stack development of several web applications as a freelancer.</p>",
+    "contact": "Contact",
+    "country": "Brazil",
+    "skills": "Skills",
+    "education": "Education",
+    "cs-degree": "Bachelor of Computer Science",
+    "certificates": "Certificates",
+    "hours": "hours",
+    "languages": "Languages",
+    "portuguese": "Portuguese",
+    "english": "English",
+    "spanish": "Spanish",
+    "fluent": "Fluent",
+    "advanced": "Advanced",
+    "basic": "Basic"
+  }
+}

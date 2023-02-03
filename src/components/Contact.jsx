@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 import Session from "./Session"
 import Title from "./Title"
@@ -22,11 +23,13 @@ const StyledContact = styled.div`
 `;
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   return (
     <StyledContact>
       <Session>
-        <Title>Contact</Title>
-        <h4>São Paulo, Brazil</h4>
+        <Title>{t('contact')}</Title>
+        <h4>São Paulo, {t('country')}</h4>
         <h4>+55 (11) 987332553</h4>
         <h4>adrianosingolani@gmail.com</h4>
         <h4>

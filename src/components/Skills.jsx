@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 import Session from "./Session";
 import Skill from "./Skill";
@@ -39,9 +40,11 @@ const skills = [
 ];
 
 export default function Skills() {
+  const { t } = useTranslation();
+
   return (
     <Session>
-      <Title>Skills</Title>
+      <Title>{t('skills')}</Title>
       <StyledSkills>
         {skills.map((skill, i) => (
           <Skill key={`skill-${i}`}>{skill}</Skill>

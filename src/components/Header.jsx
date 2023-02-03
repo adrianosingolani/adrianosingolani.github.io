@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 const StyledHeader = styled.header`
   width: 100%;
@@ -31,13 +32,12 @@ const StyledHeader = styled.header`
 `;
 
 export default function Header() {
+  const { t } = useTranslation();
+
   return (
     <StyledHeader>
       <h1>Adriano Singolani</h1>
-      <h3>
-        Bachelor's degree in Computer Science and working experience as a Full Stack Software Engineer.
-        Currently focused on TypeScript with React/Next.js, Node.js, MongoDB and MySQL.
-      </h3>
+      <h3>{t('header-text')}</h3>
     </StyledHeader>
   )
 }

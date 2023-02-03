@@ -1,0 +1,32 @@
+{
+  "translation": {
+    "header-text": "Formado em Ciência da Computação e experiência profissional como Engenheiro de Software Full Stack. Atualmente focado em TypeScript com React/Next.js, Node.js, MongoDB e MySQL.",
+    "experience": "Experiência Profissional",
+    "experience_1-title": "Desenvolvedor Full Stack, CamFeatures",
+    "experience_1-period": "Jan/2018 - Jun/2020",
+    "experience_1-description": "<p>CamFeatures foi um serviço online usado para criar sobreposições gráfica interativas para transmissões de vídeo.</p><p>O aplicativo era dividido em 3 partes: a interface web onde os usuários configuravam as sobreposições, uma extensão para Chrome que lia o chat onde eram feitas as interações e uma página que era usada para integrar com o programa usado para fazer as transmissões e que recebia os dados da extensão e mostrava as sobreposições.</p><p>O front end foi feito usando Angular e Materialize CSS. O back end em Node.js, Express e MongoDB. A comunicação entre a extensão do Chrome e a página das sobreposições era feita usando a biblioteca Socket.io. O aplicativo também usava a REST API do Patreon para os pagamentos das mensalidades do serviço.</p><p>Eu comecei a trabalhar na CamFeatures criando o protótipo e depois no produto final que foi lançado no meio de 2019.</p>",
+    "experience_2-title": "Desenvolvedor Full Stack, Schedduler",
+    "experience_2-period": "Jun/2020 - Dez/2021",
+    "experience_2-description": "<p>Desenvolvimento de um serviço online para agendamento de posts no Reddit.</p><p>O front end foi feito usando React e Material-UI. O back end com Node.js, Express e MongoDB. Também foi usada a REST API do Reddit.</p>",
+    "experience_3-title": "Desenvolvedor Full Stack, Companio",
+    "experience_3-period": "Ago/2022 - Out/2022",
+    "experience_3-description": "<p>Companio é uma plataforma para incorporação de empresas e gerencimanto de negócios que habilita pessoas estabelecerem empresas na Estônia e a trabalhar de qualquer lugar do mundo.</p><p>Eu trabalhei como Desenvolvedor Full Stack corrigindo e criando novos recursos para o aplicativo web.</p>",
+    "experience_4-title": "Desenvolvedor Full Stack, Freelancer",
+    "experience_4-period": "Jan/2022 - Jan/2023",
+    "experience_4-description": "<p>Desenvolvimento full stack de aplicações web como freelancer.</p>",
+    "contact": "Contato",
+    "country": "Brasil",
+    "skills": "Tecnologias",
+    "education": "Educação",
+    "cs-degree": "Ciência da Computação",
+    "certificates": "Certificados",
+    "hours": "horas",
+    "languages": "Idiomas",
+    "portuguese": "Português",
+    "english": "Inglês",
+    "spanish": "Espanhol",
+    "fluent": "Fluente",
+    "advanced": "Avançado",
+    "basic": "Básico"
+  }
+}
