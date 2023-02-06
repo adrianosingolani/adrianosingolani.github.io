@@ -1,18 +1,28 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 import i18n from 'i18next';
-import { useTranslation } from "react-i18next";
+
+import globeIcon from '../icons/globe-solid.svg';
 
 const StyledLanguageSelector = styled.div`
+  display: flex;
   position: absolute;
   top: 8px;
+  align-items: center;
+  
+  button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-right: 1px solid black;
 
-  label {
-    margin-right: 8px;
-  }
+    &.current {
+      font-weight: bold;
+    }
 
-  select {
-    padding: 2px;
+    &:last-child {
+      border: none;
+    }
   }
 
   @media print {
@@ -20,9 +30,13 @@ const StyledLanguageSelector = styled.div`
   }
 `;
 
-export default function LanguageSelector() {
-  const { t } = useTranslation();
+const Icon = styled.embed`
+  width: 16px;
+  margin-right: 4px;
+  margin-top: -2px;
+`;
 
+export default function LanguageSelector() {
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
 
   useEffect(() => {
@@ -32,33 +46,28 @@ export default function LanguageSelector() {
   const languages = [
     {
       code: 'en',
-      name: t('english')
+      name: 'English'
     },
     {
       code: 'pt',
-      name: t('portuguese')
+      name: 'Português'
     },
   ];
 
   return (
     <StyledLanguageSelector id="language-selector">
-      <label htmlFor="languages">{t('language')}:</label>
-      <select
-        name="languages"
-        value={currentLanguage}
-        onChange={(e) => setCurrentLanguage(e.target.value)}
-      >
-        {
-          languages.map((item, i) => (
-            <option
-              value={item.code}
-              key={`language-${i}`}
-            >
-              {item.name}
-            </option>
-          ))
-        }
-      </select>
+      <Icon src={globeIcon} />
+      {
+        languages.map(({ name, code }) => (
+          <button
+            onClick={() => setCurrentLanguage(code)}
+            className={code === currentLanguage ? 'current' : null}
+            key={code}
+          >
+            {name}
+          </button>
+        ))
+      }
     </StyledLanguageSelector >
   )
 }

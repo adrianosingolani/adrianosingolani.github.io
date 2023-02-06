@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 import Session from "./Session"
 import Title from "./Title"
 
-import githubIcon from "../github.svg";
-import linkedinIcon from "../linkedin.svg";
+import githubIcon from "../icons/github.svg";
+import linkedinIcon from "../icons/linkedin.svg";
 
 const Icon = styled.embed`
   width: 24px;
