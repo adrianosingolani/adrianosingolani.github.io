@@ -23,6 +23,7 @@ const skills = [
   "Material-UI",
   "Bootstrap",
   "styled-components",
+  "i18next",
   "Node.js",
   "Express",
   "NestJS",
