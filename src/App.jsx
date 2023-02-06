@@ -1,5 +1,6 @@
 import Container from "./components/Container";
 import Header from "./components/Header";
+import LanguageSelector from "./components/LanguageSelector";
 import Content from "./components/Content";
 import Education from "./components/Education";
 import Languages from "./components/Languages";
@@ -11,6 +12,7 @@ import Experiences from "./components/Experiences";
 function App() {
   return (
     <Container>
+      <LanguageSelector />
       <Header />
       <Content>
         <div className="first-col">
