@@ -47,7 +47,7 @@ const certificates = [
   },
   {
     school: 'EF SET ',
-    course: `English Certificate (C2 Proficient)`,
+    course: `English Certificate (C1 Proficient)`,
     link: 'https://www.efset.org/cert/Zopqyx',
     date: 'Jul/2022'
   }
