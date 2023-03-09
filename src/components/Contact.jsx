@@ -33,17 +33,17 @@ export default function Contact() {
         <h4>+55 (11) 987332553</h4>
         <h4>adrianosingolani@gmail.com</h4>
         <h4>
+          <Icon src={linkedinIcon} />
           <a
             href="https://www.linkedin.com/in/adrianosingolani/"
             target="_blank"
           >
-            <Icon src={linkedinIcon} />
             linkedin.com/in/adrianosingolani
           </a>
         </h4>
         <h4>
+          <Icon src={githubIcon} />
           <a href="https://github.com/adrianosingolani" target="_blank">
-            <Icon src={githubIcon} />
             github.com/adrianosingolani
           </a>
         </h4>
