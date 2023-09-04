@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { useTranslation } from "react-i18next";
+import styled from 'styled-components'
+import { useTranslation } from 'react-i18next'
 
-import Session from "./Session";
-import Title from "./Title";
+import Session from './Session'
+import Title from './Title'
 
 const StyledLanguages = styled.div`
   p {
@@ -25,15 +25,15 @@ const StyledLanguages = styled.div`
     font-size: 12px;
     font-style: italic;
   }
-`;
+`
 
 export default function Languages() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const languages = [
     { language: t('portuguese'), level: t('fluent') },
     { language: t('english'), level: t('advanced') },
-    { language: t('spanish'), level: t('basic') }
+    { language: t('spanish'), level: t('basic') },
   ]
 
   return (

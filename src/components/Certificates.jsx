@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { useTranslation } from "react-i18next";
+import styled from 'styled-components'
+import { useTranslation } from 'react-i18next'
 
-import Session from "./Session";
-import Title from "./Title";
+import Session from './Session'
+import Title from './Title'
 
 const StyledEducation = styled.div`
   p {
@@ -35,7 +35,7 @@ const StyledEducation = styled.div`
     font-size: 12px;
     font-style: italic;
   }
-`;
+`
 
 const certificates = [
   {
@@ -43,18 +43,18 @@ const certificates = [
     course: 'Cloud DevOps Experience',
     link: 'https://www.dio.me/certificate/8330EA62/share',
     hours: 101,
-    date: 'Jan/2023'
+    date: 'Jan/2023',
   },
   {
     school: 'EF SET ',
     course: `English Certificate (C1 Proficient)`,
     link: 'https://www.efset.org/cert/Zopqyx',
-    date: 'Jul/2022'
-  }
+    date: 'Jul/2022',
+  },
 ]
 
 export default function Certificates() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <StyledEducation>
@@ -64,9 +64,15 @@ export default function Certificates() {
           <div className="item" key={`certificate-${i}`}>
             <p className="school">{item.school}</p>
             <p className="course">
-              <a href={item.link} target="_blank">{item.course}</a>
+              <a href={item.link} target="_blank" rel="noreferrer">
+                {item.course}
+              </a>
             </p>
-            {item.hours ? (<p className="hours">{item.hours} {t('hours')}</p>) : null}
+            {item.hours ? (
+              <p className="hours">
+                {item.hours} {t('hours')}
+              </p>
+            ) : null}
             <p className="date">{item.date}</p>
           </div>
         ))}

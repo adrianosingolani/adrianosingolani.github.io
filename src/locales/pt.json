@@ -1,6 +1,6 @@
 {
   "translation": {
-    "header-text": "Formado em Ciência da Computação e experiência profissional como Engenheiro de Software Full Stack. Atualmente focado em TypeScript com React/Next.js, Node.js, MongoDB e MySQL.",
+    "header-text": "Formado em Ciência da Computação e experiência profissional como Engenheiro de Software Full Stack. Atualmente focado em TypeScript com React/Next.js, Node.js, SQL e NoSQL.",
     "experience": "Experiência Profissional",
     "experience_1-title": "Desenvolvedor Full Stack, CamFeatures",
     "experience_1-period": "Jan/2018 - Jun/2020",
@@ -12,8 +12,11 @@
     "experience_3-period": "Ago/2022 - Out/2022",
     "experience_3-description": "<p>Companio é uma plataforma para incorporação de empresas e gerencimanto de negócios que habilita pessoas estabelecerem empresas na Estônia e a trabalhar de qualquer lugar do mundo.</p><p>Eu trabalhei como Desenvolvedor Full Stack corrigindo e criando novos recursos para o aplicativo web.</p>",
     "experience_4-title": "Desenvolvedor Full Stack, Freelancer",
-    "experience_4-period": "Jan/2022 - Jan/2023",
+    "experience_4-period": "Jan/2022 - Mar/2023",
     "experience_4-description": "<p>Desenvolvimento full stack de aplicações web como freelancer.</p>",
+    "experience_5-title": "Desenvolvedor Back-end, Mistral",
+    "experience_5-period": "Abr/2023 - Set/2023",
+    "experience_5-description": "<p>Desenvolvimento back end de Restful APIs com TypeScript, Node.js e MSSQL.</p>",
     "contact": "Contato",
     "country": "Brasil",
     "skills": "Tecnologias",

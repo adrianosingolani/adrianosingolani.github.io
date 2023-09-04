@@ -1,6 +1,6 @@
 {
   "translation": {
-    "header-text": "Bachelor's degree in Computer Science and working experience as a Full Stack Software Engineer. Currently focused on TypeScript with React/Next.js, Node.js, MongoDB and MySQL.",
+    "header-text": "Bachelor's degree in Computer Science and working experience as a Full Stack Software Engineer. Currently focused on TypeScript with React/Next.js, Node.js, SQL and NoSQL.",
     "experience": "Work Experience",
     "experience_1-title": "Full Stack Engineer, CamFeatures",
     "experience_1-period": "Jan/2018 - Jun/2020",
@@ -12,8 +12,11 @@
     "experience_3-period": "Aug/2022 - Oct/2022",
     "experience_3-description": "<p>Companio is a company incorporation and business management platform that enables people to set-up their business in Estonia and work from anywhere in the world.</p><p>I worked as a Full Stack Engineer fixing and creating new features for their web app.</p>",
     "experience_4-title": "Full Stack Engineer, Freelancer",
-    "experience_4-period": "Jan/2022 - Jan/2023",
+    "experience_4-period": "Jan/2022 - Mar/2023",
     "experience_4-description": "<p>Full stack development of several web applications as a freelancer.</p>",
+    "experience_5-title": "Back-end Engineer, Mistral",
+    "experience_5-period": "Abr/2023 - Set/2023",
+    "experience_5-description": "<p>Back end development of restful APIs with TypeScript, Node.js and MSSQL.</p>",
     "contact": "Contact",
     "country": "Brazil",
     "skills": "Skills",

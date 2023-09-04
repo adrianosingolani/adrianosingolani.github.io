@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { useTranslation } from "react-i18next";
+import styled from 'styled-components'
+import { useTranslation } from 'react-i18next'
 
 const StyledHeader = styled.header`
   width: 100%;
@@ -8,7 +8,7 @@ const StyledHeader = styled.header`
   margin-bottom: 16px;
 
   h1 {
-    font-family: "Roboto Mono", monospace;
+    font-family: 'Roboto Mono', monospace;
     font-size: 2.5em;
     font-weight: 700;
   }
@@ -29,10 +29,10 @@ const StyledHeader = styled.header`
       font-size: 1em;
     }
   }
-`;
+`
 
 export default function Header() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <StyledHeader>

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const StyledSkill = styled.div`
   font-size: 12px;
@@ -16,10 +16,8 @@ const StyledSkill = styled.div`
     font-size: 11px;
     padding: 3px 6px;
   }
-`;
+`
 
 export default function Skill({ children }) {
-  return (
-    <StyledSkill>{children}</StyledSkill>
-  )
+  return <StyledSkill>{children}</StyledSkill>
 }

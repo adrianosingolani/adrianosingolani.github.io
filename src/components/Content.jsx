@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const StyledContent = styled.div`
   display: flex;
@@ -36,10 +36,8 @@ const StyledContent = styled.div`
   a:hover {
     color: #555;
   }
-`;
+`
 
 export default function Content({ children }) {
-  return (
-    <StyledContent>{children}</StyledContent>
-  )
+  return <StyledContent>{children}</StyledContent>
 }

@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { useTranslation } from "react-i18next";
+import styled from 'styled-components'
+import { useTranslation } from 'react-i18next'
 
-import Session from "./Session";
-import Title from "./Title";
+import Session from './Session'
+import Title from './Title'
 
 const StyledEducation = styled.div`
   p {
@@ -23,10 +23,10 @@ const StyledEducation = styled.div`
     font-size: 12px;
     font-style: italic;
   }
-`;
+`
 
 export default function Education() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <StyledEducation>

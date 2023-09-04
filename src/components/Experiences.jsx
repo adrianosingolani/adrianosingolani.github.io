@@ -1,9 +1,8 @@
-import styled from "styled-components";
-import { useTranslation } from "react-i18next";
+import styled from 'styled-components'
+import { useTranslation } from 'react-i18next'
 
-
-import Title from "./Title";
-import Skill from "./Skill";
+import Title from './Title'
+import Skill from './Skill'
 
 const Experience = styled.div`
   border-bottom: 1px solid #ddd;
@@ -40,100 +39,97 @@ const Experience = styled.div`
       font-size: 13px;
     }
   }
-`;
+`
 
 const Skills = styled.div`
   &&& {
     flex-direction: row;
     flex-wrap: wrap;
   }
-`;
+`
 
 export default function Experiences() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const experiences = [
     {
-      title: t("experience_4-title"),
-      period: t("experience_4-period"),
-      description: t("experience_4-description"),
+      title: t('experience_5-title'),
+      period: t('experience_5-period'),
+      description: t('experience_5-description'),
+      skills: ['TypeScript', 'Node.js', 'Moleculer', 'Rest API', 'SQL Server', 'Docker', 'Git', 'Azure'],
+    },
+    {
+      title: t('experience_4-title'),
+      period: t('experience_4-period'),
+      description: t('experience_4-description'),
       skills: [
-        "TypeScript",
-        "JavaScript",
-        "React",
-        "Next.js",
-        "Node.js",
-        "Express",
-        "NestJS",
-        "Rest API",
-        "MongoDB",
-        "MySQL",
-        "Docker",
-        "Git",
-        "GCP"
+        'TypeScript',
+        'JavaScript',
+        'React',
+        'Next.js',
+        'Node.js',
+        'Express',
+        'NestJS',
+        'Rest API',
+        'MongoDB',
+        'MySQL',
+        'Docker',
+        'Git',
+        'GCP',
+        'AWS',
       ],
     },
     {
-      title: t("experience_3-title"),
-      period: t("experience_3-period"),
-      description: t("experience_3-description"),
+      title: t('experience_3-title'),
+      period: t('experience_3-period'),
+      description: t('experience_3-description'),
+      skills: ['JavaScript', 'Node.js', 'Express', 'Rest API', 'MongoDB', 'Git'],
+    },
+    {
+      title: t('experience_2-title'),
+      period: t('experience_2-period'),
+      description: t('experience_2-description'),
       skills: [
-        "JavaScript",
-        "Node.js",
-        "Express",
-        "Rest API",
-        "MongoDB",
-        "Git"
+        'JavaScript',
+        'React',
+        'Material-UI',
+        'Node.js',
+        'Express',
+        'MongoDB',
+        'Reddit API',
+        'Rest API',
+        'Docker',
+        'Git',
+        'GCP',
       ],
     },
     {
-      title: t("experience_2-title"),
-      period: t("experience_2-period"),
-      description: t("experience_2-description"),
+      title: t('experience_1-title'),
+      period: t('experience_1-period'),
+      description: t('experience_1-description'),
       skills: [
-        "JavaScript",
-        "React",
-        "Material-UI",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Reddit API",
-        "Rest API",
-        "Docker",
-        "Git",
-        "GCP",
+        'TypeScript',
+        'Angular',
+        'Materialize',
+        'Node.js',
+        'Express',
+        'MongoDB',
+        'Patreon API',
+        'Rest API',
+        'Socket.io',
+        'Chrome Extension',
       ],
     },
-    {
-      title: t("experience_1-title"),
-      period: t("experience_1-period"),
-      description: t("experience_1-description"),
-      skills: [
-        "TypeScript",
-        "Angular",
-        "Materialize",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Patreon API",
-        "Rest API",
-        "Socket.io",
-        "Chrome Extension",
-      ],
-    },
-  ];
+  ]
 
   return (
     <div>
-      <Title>{t("experience")}</Title>
+      <Title>{t('experience')}</Title>
       {experiences.map((experience, i) => (
         <Experience key={`experience-${i}`}>
           <p className="title">{experience.title}</p>
           <p className="period">{experience.period}</p>
-          <p
-            className="description"
-            dangerouslySetInnerHTML={{ __html: experience.description }}
-          />
+          <p className="description" dangerouslySetInnerHTML={{ __html: experience.description }} />
           <Skills>
             {experience.skills.map((skill, i) => (
               <Skill key={`experience-skill-${i}`}>{skill}</Skill>
